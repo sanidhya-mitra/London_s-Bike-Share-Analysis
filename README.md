@@ -48,35 +48,27 @@ For access to the dataset and the Tableau workbook used in this analysis, please
     </table>
 </div>
 
-## Challenges Faced 😵:
-
-### Challenge 1: Importing the Kaggle Library
-**Issue**: Attempting to import the Kaggle library in Jupyter Notebook resulted in a "ModuleNotFoundError".<br><br>
-**Resolution**: Realized that the Kaggle library was not installed. Fixed by installing the Kaggle API package using `!pip install kaggle` directly in the Jupyter notebook, then successfully imported the library.
-
-### Challenge 2: Authenticating Kaggle API
-**Issue**: After importing the Kaggle library, encountered an `OSError` because the `kaggle.json` file was not found in its expected location.<br><br>
-**Resolution**: Downloaded the `kaggle.json` file, which contains API credentials, from my Kaggle account. Placed this file in the correct directory `C:\Users\sanidhya\.kaggle`, ensuring the environment could authenticate the Kaggle API successfully.
-
-### Challenge 3: Missing Kaggle API Token
-**Issue**: Despite previous steps, the `kaggle.json` file was initially missing, causing authentication to fail.<br><br>
-**Resolution**: Generated a new API token by accessing my Kaggle account settings and downloading the `kaggle.json` file. Ensured the file was correctly saved in the specified `.kaggle` directory under my user profile, followed by setting the appropriate file permissions for security.
-
-### Challenge 4: Adjusting Time Display in Tableau
-**Issue**: After the "time" field was dragged into the Rows shelf, by default, Tableau displayed the "time" field from the dataset in a 24-hour format, starting at 0 and ending at 23. This was technically correct but not aligned with typical user expectations, who prefer hours numbered from 1 to 24.
-
-**Resolution**: After exploring several Tableau community forums for guidance, I constructed a calculated field to adjust the hour display. The solution involved using the formula `IF [Hour] = 0 THEN 24 ELSE [Hour] END`, effectively mapping the '0' hour to '24' for better readability and to meet user preferences. This adjustment improved the clarity and usability of the hourly data in the dashboard.
-
-## Achievement🏆: Advanced Tooltips in Tableau
-**Overview**: Successfully implemented advanced dynamic tooltips in Tableau for the first time.
-
-**Details**: Following a [video tutorial](https://www.youtube.com/watch?v=P1V3SPiiPM8), I learned Tableau's 'Viz in Tooltip' feature, embedding extra visual elements directly within tooltips. This enhancement allowed for displaying detailed data like weather conditions and hourly distributions on hover, significantly improving the dashboard's interactivity and user experience without overcrowding the main view.
-
 ## Technical Workflow 🖥️:
 
 1. **Data Acquisition**: Programmatic download of data using Kaggle API.
 2. **Data Preprocessing and Analysis**: Data manipulation using Python and Pandas.
 3. **Visualization**: Dynamic visualizations created in Tableau.
+
+## Challenges Faced 😵:
+
+### Challenge 1: Authenticating Kaggle API
+**Issue**: After importing the Kaggle library, I encountered an `OSError` because the `kaggle.json` file was somehow initially missing, causing authentication to fail.<br><br>
+**Resolution**: Generated a new API token by accessing my Kaggle account settings and downloading the `kaggle.json` file. Ensured the file was correctly saved in the specified `.kaggle` directory under my user profile, followed by setting the appropriate file permissions for security.
+
+### Challenge 2: Adjusting Time Display in Tableau
+**Issue**: After the "time" field was dragged into the Rows shelf, by default, Tableau displayed the "time" field from the dataset in a 24-hour format, starting at 0 and ending at 23. This was technically correct but not aligned with typical user expectations, who prefer hours numbered from 1 to 24.
+
+**Resolution**: After exploring several Tableau community forums for guidance, I constructed a calculated field to adjust the hour display. The solution involved using the formula `IF [Hour] = 0 THEN 24 ELSE [Hour] END`, effectively mapping the '0' hour to '24' for better readability and to meet user preferences. This adjustment improved the clarity and usability of the hourly data in the dashboard.
+
+## Techincal Breakthrough🏆: Advanced Tooltips in Tableau
+**Overview**: Successfully implemented advanced dynamic tooltips in Tableau for the first time.
+
+**Details**: Following a [video tutorial](https://www.youtube.com/watch?v=P1V3SPiiPM8), I learned Tableau's 'Viz in Tooltip' feature, embedding extra visual elements directly within tooltips. This enhancement allowed for displaying detailed data like weather conditions and hourly distributions on hover, significantly improving the dashboard's interactivity and user experience without overcrowding the main view.
 
 
 ## Data Insights and Visualizations 📊:
