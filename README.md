@@ -97,7 +97,7 @@ View the live Tableau Dashboard here:
     </a>
 </p> <br>
 
-Or download my London Bike Rides Tableau Workbook:
+Or download my London Bike-Share Analytics Workbook:
 <p align="center">
     <a href="https://github.com/sanidhya-mitra/Pedal-Pulse-London/blob/main/London%20Bike%20Ride%20Analytics.twbx">
         <img src="https://analyticscanvas.com/wp-content/uploads/2016/02/twbx.png" width="60px" alt="Tableau Workbook"><br>
