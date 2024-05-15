@@ -65,7 +65,8 @@ For access to the dataset and the Tableau workbook used in this analysis, please
 
 **Resolution**: After exploring several Tableau community forums for guidance, I constructed a calculated field to adjust the hour display. The solution involved using the formula `IF [Hour] = 0 THEN 24 ELSE [Hour] END`, effectively mapping the '0' hour to '24' for better readability and to meet user preferences. This adjustment improved the clarity and usability of the hourly data in the dashboard.
 
-## Techincal Breakthrough🏆: Advanced Tooltips in Tableau
+## Techincal Breakthrough🏆: 
+### Advanced Tooltips in Tableau
 **Overview**: Successfully implemented advanced dynamic tooltips in Tableau for the first time.
 
 **Details**: Following a [video tutorial](https://www.youtube.com/watch?v=P1V3SPiiPM8), I learned Tableau's 'Viz in Tooltip' feature, embedding extra visual elements directly within tooltips. This enhancement allowed for displaying detailed data like weather conditions and hourly distributions on hover, significantly improving the dashboard's interactivity and user experience without overcrowding the main view.
