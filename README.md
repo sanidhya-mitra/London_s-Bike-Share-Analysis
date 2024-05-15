@@ -1,7 +1,7 @@
 # London Bike Sharing Dashboard
 
 <div align="center">
-    <img src="https://github.com/sanidhya-mitra/Pedal-Pulse-London/blob/main/dataset-cover.jpg" width="850px">
+    <img src="https://github.com/sanidhya-mitra/Pedal-Pulse-London/blob/main/dataset-cover.jpg" width="1000px">
 </div>
 
 ## Introduction:
@@ -41,9 +41,9 @@ For access to the dataset and the Tableau workbook used in this analysis, please
 <div align="center">
     <table>
         <tr>
-            <td align="center"><img alt="Tableau" width="60px" src="https://cdn.worldvectorlogo.com/logos/tableau-software.svg"/><br>Tableau</td>
-            <td align="center"><img alt="Python" width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/><br>Python</td>
-            <td align="center"><img alt="Pandas" width="60px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg"/><br>Pandas</td>
+            <td align="center"><img alt="Tableau" width="35px" src="https://cdn.worldvectorlogo.com/logos/tableau-software.svg"/><br>Tableau</td>
+            <td align="center"><img alt="Python" width="35px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/><br>Python</td>
+            <td align="center"><img alt="Pandas" width="35px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg"/><br>Pandas</td>
         </tr>
     </table>
 </div>
