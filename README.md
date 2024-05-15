@@ -8,7 +8,7 @@
 **London Bike Sharing** service is a prevalent choice among commuters and tourists in London. This project leverages the London Bike Sharing Dataset from Kaggle to analyze usage patterns across different seasons, weather conditions, and holidays to forecast demand and improve service efficiency.
 
 ## Project Objective 🎯:
-The aim of this project is to understand and visualize the dynamics of bike sharing usage in London to enhance operational decisions and customer satisfaction through data-driven insights.
+This project aims to understand and visualize the dynamics of bike-sharing usage in London to enhance operational decisions and customer satisfaction through data-driven insights.
 
 ### Key Performance Indicators include 🔑:
 | Objective                            | Description                                                    |
@@ -32,7 +32,7 @@ For access to the dataset and the Tableau workbook used in this analysis, please
 <p align="center">
     <a href="https://www.kaggle.com/datasets/hmavrodiev/london-bike-sharing-dataset?resource=download">
         <img src="https://www.svgrepo.com/show/349422/kaggle.svg" width="60px" alt="Kaggle Dataset"><br>
-        Access Kaggle Dataset
+        Access
     </a>
 </p>
 
@@ -88,11 +88,20 @@ For access to the dataset and the Tableau workbook used in this analysis, please
 
 The dashboard reveals key insights into factors affecting bike rental volumes, enabling strategic improvements for operational efficiency and customer satisfaction.<br><br>
 
-Download my London Bike Rides Tableau dashboard file:
+View the live Tableau Dashboard here:
+
+<p align="center">
+    <a href="https://public.tableau.com/app/profile/sanidhya.mitra4662/viz/LondonBikeRideAnalytics/Dashboard1">
+        <img src="https://www.svgrepo.com/show/324142/dashboard-graph-analytics-report.svg" width="65px" alt="Access Dataset"><br>
+        View
+    </a>
+</p> <br>
+
+Or download my London Bike Rides Tableau Workbook:
 <p align="center">
     <a href="https://github.com/sanidhya-mitra/Pedal-Pulse-London/blob/main/London%20Bike%20Ride%20Analytics.twbx">
         <img src="https://analyticscanvas.com/wp-content/uploads/2016/02/twbx.png" width="60px" alt="Tableau Workbook"><br>
-        Download Tableau Workbook
+        Download
     </a>
 </p>
 
