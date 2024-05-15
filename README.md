@@ -1,7 +1,7 @@
 # London Bike Sharing Dashboard
 
 <div align="center">
-    <img src="https://github.com/sanidhya-mitra/Pedal-Pulse-London/blob/main/dataset-cover.jpg" width="1000px">
+    <img src="https://www.verdict.co.uk/wp-content/uploads/2018/05/santander_bikes.jpg" width="500px">
 </div>
 
 ## Introduction:
