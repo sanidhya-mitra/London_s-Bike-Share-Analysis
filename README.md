@@ -43,6 +43,7 @@ For access to the dataset and the Tableau workbook used in this analysis, please
         <tr>
             <td align="center"><img alt="Tableau" width="35px" src="https://cdn.worldvectorlogo.com/logos/tableau-software.svg"/><br>Tableau</td>
             <td align="center"><img alt="Python" width="35px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/><br>Python</td>
+            <td align="center"><img alt="Jupyter" width="35px" src="https://www.svgrepo.com/show/373718/jupyter.svg"/><br>Jupyter Lab</td>
             <td align="center"><img alt="Pandas" width="35px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg"/><br>Pandas</td>
         </tr>
     </table>
